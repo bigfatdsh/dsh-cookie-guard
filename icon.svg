@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Cookie Guard">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f8f83"/>
+      <stop offset="1" stop-color="#175c63"/>
+    </linearGradient>
+    <linearGradient id="cookie" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6c76a"/>
+      <stop offset="1" stop-color="#d99a3d"/>
+    </linearGradient>
+  </defs>
+  <path d="M64 8 112 26v36c0 28-18 47-48 58-30-11-48-30-48-58V26Z" fill="url(#shield)"/>
+  <path d="M64 18 102 32v30c0 22-14 38-38 48-24-10-38-26-38-48V32Z" fill="none" stroke="#8fd8cd" stroke-width="2" opacity=".55"/>
+  <circle cx="64" cy="58" r="25" fill="url(#cookie)"/>
+  <circle cx="55" cy="48" r="3.6" fill="#8a5a22"/>
+  <circle cx="74" cy="52" r="3" fill="#8a5a22"/>
+  <circle cx="62" cy="66" r="3.4" fill="#8a5a22"/>
+  <circle cx="78" cy="70" r="2.6" fill="#8a5a22"/>
+  <circle cx="50" cy="66" r="2.4" fill="#8a5a22"/>
+  <path d="M44 88c7-6 33-6 40 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+  <path d="m56 88 8 8 12-15" fill="none" stroke="#175c63" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

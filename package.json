@@ -1,0 +1,40 @@
+{
+  "name": "dsh-cookie-guard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "清理 DSH 登录 Cookie 的累积增长，修复请求头超过 16KB 后 Web UI 永久打不开的问题。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cookie",
+    "auth",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigfatdsh/dsh-cookie-guard.git"
+  },
+  "homepage": "https://github.com/bigfatdsh/dsh-cookie-guard"
+}

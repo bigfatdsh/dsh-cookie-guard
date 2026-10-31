@@ -1,0 +1,10 @@
+- insert:
+    - id: cookie-guard
+      name: dsh-cookie-guard
+      config:
+        # 过大的请求头仍要能进入处理器，否则浏览器来不及收到清理指令。
+        maxHeaderBytes: 262144
+        # 除当前实例外，最多保留多少条其它实例的登录 Cookie（支持多开）。
+        keepOtherCookies: 3
+        # 认证 Cookie 的预算；超过预算时从最旧的开始清理。
+        cookieBudgetBytes: 4096

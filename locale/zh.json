@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cookie 守卫",
+    "description": "阻止 DSH 登录 Cookie 在每次启动后累积，避免请求头超过 16KB 后 Web UI 永久打不开。"
+  }
+}

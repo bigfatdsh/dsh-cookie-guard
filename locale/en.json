@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cookie Guard",
+    "description": "Stops DSH login cookies from piling up and breaking the Web UI once request headers exceed 16 KB."
+  }
+}
