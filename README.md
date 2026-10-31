@@ -1,5 +1,7 @@
 # dsh-cookie-guard
 
+仓库：<https://github.com/bigfatdsh/dsh-cookie-guard> · MIT
+
 修复 DSH 登录 Cookie 只增不清、最终把请求头撑爆导致 Web UI 永久打不开的宿主机插件。
 
 ## 问题
@@ -35,6 +37,12 @@ GET /  Cookie: big=<20 KB>  ->  431 Request Header Fields Too Large
 
 34 KB 那次响应里，当前 Cookie 没有被误删，另外 147 条旧 Cookie 均带
 `Max-Age=0` 的删除头。请求头从 34 KB 降到约 1 KB。
+
+## 从 GitHub 安装
+
+```bash
+dsh plugin add https://github.com/bigfatdsh/dsh-cookie-guard
+```
 
 ## 已安装
 
